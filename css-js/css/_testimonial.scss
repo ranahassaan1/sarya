@@ -1,0 +1,96 @@
+.testimonial {
+    .draggable {
+        padding-bottom: 2.5rem;
+    }
+
+    .text-content::-webkit-scrollbar {
+        width: 0.5rem;
+        height: 20rem !important;
+    }
+
+    /* Track */
+    .text-content::-webkit-scrollbar-track {
+        background: $grey;
+    }
+
+    /* Handle */
+    .text-content::-webkit-scrollbar-thumb {
+        background: $primary_4;
+        height: 2rem !important;
+    }
+
+    /* Handle on hover */
+    .text-content::-webkit-scrollbar-thumb:hover {
+        background: $primary_1;
+    }
+
+    .testimonial-slider {
+        .testimonial-content {
+            .testimonial-text {
+                background-color: $white;
+                height: 17.9rem;
+                padding-top: 2rem;
+                box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.16) !important;
+
+                // padding: 2.5rem;
+                // overflow-y: auto;
+                .text-content {
+                    font-size: 1.6rem;
+                    font-weight: 300;
+                    color: $primary_4;
+                    max-width: 31.2rem;
+                    width: 100%;
+                    height: 11.7rem;
+                    overflow-y: auto;
+                    display: inline-block;
+
+                    // padding-top: 2rem;
+                    @include m-425 {
+                        max-width: 33rem;
+                    }
+                }
+            }
+
+            .testimonial-img {
+                height: 69px;
+                width: 69px;
+                border-radius: 50%;
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+                display: inline-flex;
+                margin-top: -3rem;
+                background-color: $grey;
+            }
+
+            .t-name {
+                margin-top: 1.1rem;
+                font-size: 2rem;
+                font-weight: 600;
+                color: $primary_3;
+                text-transform: capitalize;
+            }
+
+            .t-designation {
+                margin-top: 0.6rem;
+                font-size: 1.6rem;
+                font-weight: 300;
+                color: $primary_4;
+                text-transform: capitalize;
+            }
+
+        }
+    }
+}
+
+.rtl {
+    .testimonial {
+        .testimonial-slider {
+            .testimonial-content {
+                .testimonial-text {
+                    direction: rtl;
+                }
+            }
+        }
+    }
+}

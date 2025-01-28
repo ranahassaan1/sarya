@@ -1,0 +1,48 @@
+.aboutus-page {
+    margin-top: 10rem;
+
+    .aboutus-page-page-img-float-left {
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        height: 28.3rem;
+        max-width: 26.2rem;
+        width: 100%;
+        overflow: hidden;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        background-color: $grey !important;
+        float: left;
+
+        @include m-575 {
+            max-width: 100%;
+            margin-right: 0rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .aboutus-page-text {
+        font-size: 1.6rem;
+        font-weight: 300;
+        line-height: 2.6rem;
+        color: $primary_4;
+        text-align: justify;
+    }
+}
+
+
+.rtl {
+
+    .aboutus-page {
+        .aboutus-page-page-img-float-left {
+            margin-right: 0rem;
+            margin-left: 2rem;
+            // float: left;
+            float: right;
+
+            @include m-575 {
+                margin-left: 0rem;
+            }
+        }
+    }
+}

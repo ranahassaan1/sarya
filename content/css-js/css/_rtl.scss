@@ -1,0 +1,77 @@
+.rtl {
+    direction: rtl;
+    text-align: right;
+    
+    $breakpoint-tablet: 1440px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+    $breakpoint-tablet: 1280px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 1200px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 1024px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 991px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 768px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 576px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 540px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 425px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 414px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 411px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 375px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 360px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 320px;
+
+    @media (max-width: $breakpoint-tablet) {}
+
+
+    $breakpoint-tablet: 280px;
+
+    @media (max-width: $breakpoint-tablet) {}
+}

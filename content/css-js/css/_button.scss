@@ -1,0 +1,36 @@
+.site-button {
+    a {
+        color: $white;
+        background: #083d77;
+        background: linear-gradient(180deg, #083d77 100%, #041f3c 100%);
+        text-transform: capitalize;
+        border-radius: 0.5rem;
+        padding: 1.55rem 2.52rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+
+        &:hover {
+            background: $primary_3;
+            box-shadow: 0 0.3rem 0.6rem rgba(255, 255, 255, 0.16);
+        }
+    }
+}
+
+
+.btnContact {
+    color: $white;
+    background: #083d77;
+    background: linear-gradient(180deg, #083d77 100%, #041f3c 100%);
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    padding: .55rem 2.52rem !important;
+    font-size: 1.6rem !important;
+    font-weight: 400 !important;
+    border: none !important;
+    outline: none !important;
+
+    &:hover {
+        background: $primary_3;
+        box-shadow: 0 0.3rem 0.6rem rgba(255, 255, 255, 0.16);
+    }
+}

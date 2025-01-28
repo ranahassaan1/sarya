@@ -1,0 +1,43 @@
+/*==== banner ====*/
+.about {
+    background-image: url('../../images/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 61.7rem;
+    margin-top: 10rem;
+    display: flex;
+    padding-top: 9rem;
+    justify-content: center;
+
+    // position: relative;
+    @include m-325 {
+        padding-bottom: 10rem;
+    }
+}
+
+.about-grid {
+    display: grid;
+    justify-content: center;
+}
+
+.about-text {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    max-width: 96.2rem;
+    width: 100%;
+
+    .intro {
+        font-size: 1.6rem;
+        font-weight: 300;
+        line-height: 2.6rem;
+        margin-top: 3.7rem;
+        color: $white;
+    }
+
+    .about-btn {
+        margin-top: 3.4rem;
+    }
+}

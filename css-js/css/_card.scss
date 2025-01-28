@@ -1,0 +1,327 @@
+.services {
+    margin-top: 10rem;
+}
+
+.service-heading {
+    margin-bottom: 4.2rem;
+}
+
+.portfolio {
+    margin-top: 5.5rem;
+}
+
+.portfolio-heading {
+    margin-bottom: 4.2rem;
+}
+
+
+.expert {
+    margin-top: 5.5rem;
+
+    .draggable {
+        padding-bottom: 2.2rem;
+    }
+}
+
+.expert-heading {
+    margin-bottom: 4.2rem;
+}
+
+
+.testimonial {
+    margin-top: 8.7rem;
+}
+
+.testimonial-heading {
+    margin-bottom: 4.2rem;
+}
+
+
+.bottom-space {
+    margin-bottom: 3rem;
+}
+
+/*====four grid card for slider====*/
+.four-grid-card-slider {
+    &:hover {
+        img {
+            transform: scale(1.2);
+        }
+    }
+
+    .four-grid-card-img {
+        border: 0.8rem solid $white;
+        box-shadow: 0rem 0.3rem 0.6rem rgba(0, 0, 0, 0.16) !important;
+        // max-width: 36.0rem;
+        // width: 26.2rem;
+        height: 32rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $grey;
+        overflow: hidden;
+
+        @include large-1199 {
+            height: 26rem;
+        }
+
+        @include m-575 {
+            height: 26.5rem;
+        }
+
+        @include m-425 {
+            height: 22rem;
+        }
+
+        @include m-414 {
+            height: 35rem;
+            width: 28rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @include m-375 {
+            height: 29rem;
+            width: 26.5rem;
+        }
+
+        @include m-360 {
+            height: 28rem;
+        }
+
+        @include m-320 {
+            height: 33rem;
+        }
+
+        @include m-285 {
+            height: 20rem;
+        }
+
+        img {
+            transition: all 0.3s ease;
+        }
+    }
+
+    .four-grid-card-detail {
+        text-align: center;
+        padding: 0rem 0.5rem;
+    }
+
+    .four-grid-card-title {
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: $primary_3;
+        padding-left: 0.2rem;
+    }
+
+    .four-grid-card-description {
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: $primary_4;
+        line-height: 2.6rem;
+    }
+}
+
+.four-grid-card-img-page {
+    @include m-575 {
+        height: 34rem !important;
+        width: 28rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @include m-375 {
+        height: 27.5rem !important;
+    }
+
+
+}
+
+/*====four grid card====*/
+.four-grid-card {
+    text-align: center;
+    max-width: 26.5rem;
+    width: 100%;
+    height: 32.7rem;
+
+    &:hover {
+        img {
+            transform: scale(1.2);
+        }
+    }
+
+    @include large-1199 {
+        height: 27.2rem;
+    }
+
+    @include m-575 {
+        margin-left: auto;
+        margin-right: auto;
+        height: 32.7rem;
+    }
+
+
+    .four-grid-img {
+        border: 0.8rem solid $white;
+        box-shadow: 0rem 0.3rem 0.6rem rgba(0, 0, 0, 0.16) !important;
+        max-width: 26.5rem;
+        width: 100%;
+        height: 28.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $grey;
+        overflow: hidden;
+
+        img {
+            transition: all 0.3s ease;
+        }
+
+        @include large-1199 {
+            height: 22.8rem;
+        }
+
+        @include m-575 {
+            height: 28.3rem;
+        }
+
+        @include m-285 {
+            height: 26rem;
+        }
+    }
+
+    .four-grid-card-img-caption {
+        margin-top: 1.5rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $primary_3;
+        text-transform: capitalize;
+        padding: 0rem 0.5rem;
+    }
+}
+
+/*====three grid for slider====*/
+.three-grid-card {
+    &:hover {
+        img {
+            transform: scale(1.2);
+        }
+    }
+
+    .three-grid-card-img {
+        border: 0.8rem solid $white;
+        box-shadow: 0rem 0.3rem 0.6rem rgba(0, 0, 0, 0.16) !important;
+        // max-width: 36.0rem;
+        // width: 26.2rem;
+        height: 32rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $grey;
+        overflow: hidden;
+
+        @include large-1199 {
+            height: 26rem;
+        }
+
+        @include m-575 {
+            height: 21rem;
+        }
+
+        @include m-425 {
+            height: 15rem;
+        }
+
+        @include m-414 {
+            height: 29rem;
+            width: 32rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @include m-375 {
+            height: 29rem;
+        }
+
+        @include m-360 {
+            height: 28rem;
+        }
+
+        @include m-320 {
+            height: 24rem;
+            width: auto;
+        }
+
+        @include m-285 {
+            height: 20rem;
+        }
+
+        img {
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+/*====three grid for page====*/
+.three-grid-card-page {
+    &:hover {
+        img {
+            transform: scale(1.2);
+        }
+    }
+
+    .three-grid-card-img {
+        border: 0.8rem solid $white;
+        box-shadow: 0rem 0.3rem 0.6rem rgba(0, 0, 0, 0.16) !important;
+        max-width: 36.0rem;
+        width: 100%;
+        height: 32.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $grey;
+        overflow: hidden;
+
+        @include large-1199 {
+            height: 27rem;
+        }
+
+        @include medium-991 {
+            height: 20rem;
+        }
+
+        @include m-575 {
+            height: 32.9rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @include m-375 {
+            height: 31rem;
+        }
+
+        @include m-325 {
+            height: 26rem;
+        }
+
+        @include m-285 {
+            height: 23rem;
+        }
+
+        img {
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+/*====rtl====*/
+.rtl {
+
+    .three-grid-card-title {
+
+        padding-left: 0rem;
+        padding-right: 0.2rem;
+    }
+}

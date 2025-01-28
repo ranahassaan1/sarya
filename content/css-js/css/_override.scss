@@ -1,0 +1,13 @@
+* {
+    outline: none !important;
+
+    &:focus {
+        outline: none !important;
+    }
+
+    box-shadow: none !important;
+}
+
+a{
+    text-decoration: none !important;
+}

@@ -1,0 +1,431 @@
+.footer {
+    background-image: url('../../images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10rem;
+    min-height: 42.1rem;
+
+    @include medium-991 {
+        padding-bottom: 9rem;
+    }
+}
+
+.footer-space {
+    padding-top: 7.5rem !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-heading-top-space {
+
+    @include m-575 {
+        margin-top: 2rem;
+    }
+}
+
+
+.footer-heading-left-space {
+    padding-left: 9.4rem;
+
+    @include large-1199 {
+        padding-left: 1.5rem;
+    }
+}
+
+.footer-last-col-padding {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+
+    @include m-575 {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+.footer-heading-top-space-1 {
+    @include m-575 {
+        margin-top: 2rem;
+    }
+}
+
+.footer-logo {
+    max-width: 20rem;
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.footer-text {
+    margin-top: 2.7rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: justify;
+    color: $primary_5;
+    line-height: 2.6rem;
+}
+
+.footer-icons {
+    display: flex;
+    margin-top: 2rem;
+
+    a {
+        background: #083d77;
+        background: linear-gradient(180deg, #083d77 100%, #041f3c 100%);
+        color: $white;
+        width: 3.7rem;
+        height: 3.7rem;
+        font-size: 1.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        margin: 0rem 0.5rem;
+
+        &:hover {
+            background: $primary_3;
+            transition: 0.2s;
+        }
+
+
+        @include m-325 {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        &:first-child {
+            margin-left: 0rem !important;
+
+            @include m-425 {
+                margin-right: 0.5rem;
+            }
+        }
+
+        svg {
+            font-size: 1.9rem;
+            width: 1.9rem;
+            height: 1.9rem;
+            color: $white;
+
+            path {
+                &#Path_45040 {
+                    fill: $white !important;
+                }
+
+                &#Path_45041 {
+                    fill: $white !important;
+                }
+
+                &#Path_45042 {
+                    fill: $white !important;
+                }
+
+                &#Path_45043 {
+                    fill: $white !important;
+                }
+
+                &#Path_45044 {
+                    fill: $white !important;
+                }
+
+                &#Path_45045 {
+                    fill: $white !important;
+                }
+            }
+        }
+    }
+}
+
+.footer-heading {
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: $white;
+    text-transform: capitalize;
+    padding-top: 0.6rem;
+}
+
+.footer-links {
+    margin-top: 2rem;
+
+    ul {
+        li {
+            line-height: 5rem !important;
+        }
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            color: $white;
+            transition: 0.2s;
+
+            .list-text {
+                color: $white;
+            }
+
+            .list-icon {
+                background: $primary_3;
+                transition: 0.2s;
+                border: 0.1rem solid $white;
+            }
+        }
+    }
+
+    .list-icon {
+        background: #083d77;
+        background: linear-gradient(180deg, #083d77 100%, #041f3c 100%);
+        color: $white;
+        width: 3.7rem;
+        height: 3.7rem;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .list-text {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $primary_5;
+    }
+}
+
+.footer-form {
+    margin-top: 2.5rem;
+
+    .form-group {
+        margin-bottom: 1.2rem;
+    }
+
+    input {
+        background-color: $primary_3;
+        height: 6.3rem;
+        border-radius: 0.5rem;
+        border: 0.1rem solid $primary_1;
+        outline: none;
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: #888888;
+        text-transform: capitalize;
+        padding-left: 1.5rem;
+
+        &::placeholder {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: #888888;
+            text-transform: capitalize;
+        }
+
+        &:focus {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: #888888;
+            text-transform: capitalize;
+            background-color: $primary_3;
+            border: 0.1rem solid $primary_1;
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+    button {
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        color: $white;
+        background: #083d77;
+        background: linear-gradient(180deg, #083d77 100%, #041f3c 100%);
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+        height: 5rem;
+
+        &:hover {
+            background: $primary_3;
+            box-shadow: 0 0.3rem 0.6rem rgba(255, 255, 255, 0.16);
+        }
+    }
+}
+
+.footer-nav {
+    background: #083d77;
+    background: linear-gradient(180deg, #083d77 100%, #041f3c 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 6rem;
+
+    @include m-575 {
+        padding: 2rem 0rem;
+    }
+
+    .footer-nav-text {
+        color: $white;
+        font-size: 1.6rem;
+        font-weight: 300;
+
+        @include m-575 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @include m-375 {
+            font-size: 1.4rem;
+        }
+
+        @include m-325 {
+            font-size: 1.2rem;
+        }
+
+        @include m-285 {
+            font-size: 1rem;
+        }
+
+        span {
+            color: $white;
+            font-size: 1.6rem;
+            font-weight: 700;
+
+            @include m-375 {
+                font-size: 1.4rem;
+            }
+
+            @include m-325 {
+                font-size: 1.2rem;
+            }
+
+            a {
+                color: #c0c0c0;
+                font-size: 1.6rem;
+                font-weight: 700;
+                text-transform: capitalize;
+
+                @include m-375 {
+                    font-size: 1.4rem;
+                }
+
+                @include m-325 {
+                    font-size: 1.2rem;
+                }
+
+                &:hover {
+                    color: $white;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+
+    .pri-term {
+        display: flex;
+        align-items: center;
+
+        @include m-575 {
+            margin-top: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a {
+            color: #c0c0c0;
+            font-size: 1.6rem;
+            font-weight: 400;
+            text-transform: capitalize;
+
+            @include m-375 {
+                font-size: 1.4rem;
+            }
+
+            @include m-325 {
+                font-size: 1.2rem;
+            }
+
+            &:hover {
+                color: $white;
+                transition: 0.2s;
+            }
+        }
+
+        .dot-footer {
+            color: $white;
+            font-size: 1.6rem;
+            font-weight: 600;
+
+            @include m-375 {
+                font-size: 1.4rem;
+            }
+
+            @include m-325 {
+                font-size: 1.2rem;
+            }
+
+        }
+    }
+}
+
+
+.rtl {
+
+    .footer-icons {
+        a {
+            margin: 0rem 0.5rem;
+
+            &:first-child {
+                margin-left: 0.5rem !important;
+                margin-right: 0rem !important;
+            }
+        }
+
+    }
+
+    .footer-links {
+        .list-icon {
+            margin-right: 0rem;
+            margin-left: 1.5rem;
+            transform: scaleX(-1);
+
+            svg {
+                direction: ltr;
+            }
+        }
+
+        .list-text {
+            direction: ltr;
+        }
+    }
+
+    .footer-form {
+
+        input {
+            padding-right: 1.5rem;
+            padding-left: 0rem;
+        }
+    }
+
+    .footer-heading-left-space {
+        padding-right: 9.4rem !important;
+        padding-left: 1.5rem !important;
+
+        @include large-1199 {
+            padding-right: 1.5rem !important;
+            padding-left: 1.5rem;
+        }
+    }
+
+    .footer-nav {
+        .pri-term {
+            .dot-footer {
+                transform: scaleX(-1);
+            }
+        }
+    }
+}

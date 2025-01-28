@@ -1,0 +1,232 @@
+.top-nav {
+    background: #083d77;
+    background: linear-gradient(180deg, #083d77 100%, #041f3c 100%);
+
+    .top-bar {
+        margin: 1.4rem 0rem;
+
+        .top-text {
+            margin-top: 0.4rem;
+            color: $white;
+
+            @include m-575 {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .top-email {
+                a {
+                    font-size: 1.6rem;
+                    font-weight: 300;
+                    color: #c0c0c0;
+
+                    &:hover {
+                        color: $white;
+                        transition: 0.2s;
+                    }
+
+                    @include m-325 {
+                        font-size: 1.2rem;
+                    }
+
+                    @include m-285 {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                span {
+                    margin-right: 1rem;
+                    font-size: 1.8rem;
+                    color: $white;
+                }
+            }
+
+            .top-phone {
+                a {
+                    font-size: 1.6rem;
+                    font-weight: 300;
+                    color: #c0c0c0;
+
+                    &:hover {
+                        color: $white;
+                        transition: 0.2s;
+                    }
+
+                    @include m-325 {
+                        font-size: 1.2rem;
+                    }
+
+                    @include m-285 {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                margin-left: 2rem;
+
+                span {
+                    margin-right: 1rem;
+                    font-size: 1.8rem;
+                    color: $white;
+                }
+            }
+        }
+
+        .top-icon {
+            display: flex;
+
+            @include m-575 {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            @include m-540 {
+                width: 100%;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                display: flex;
+                justify-content: center;
+            }
+
+            a {
+                background-color: $white;
+                color: $primary_1;
+                width: 3.2rem;
+                height: 3.2rem;
+                font-size: 1.9rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0.5rem;
+                margin: 0rem 0.7rem;
+
+                &:hover {
+                    background-color: $primary_3;
+                    color: $white;
+                    transition: 0.2s;
+
+                    svg {
+
+                        path {
+                            &#Path_45040 {
+                                fill: $white !important;
+                            }
+
+                            &#Path_45041 {
+                                fill: $white !important;
+                            }
+
+                            &#Path_45042 {
+                                fill: $white !important;
+                            }
+
+                            &#Path_45043 {
+                                fill: $white !important;
+                            }
+
+                            &#Path_45044 {
+                                fill: $white !important;
+                            }
+
+                            &#Path_45045 {
+                                fill: $white !important;
+                            }
+                        }
+                    }
+                }
+
+                @include m-325 {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+
+                &:last-child {
+                    margin-right: 0rem;
+
+                    @include m-425 {
+                        margin-right: 0.7rem;
+                    }
+                }
+
+                svg {
+                    font-size: 1.9rem;
+                    width: 1.9rem;
+                    height: 1.9rem;
+                }
+            }
+        }
+    }
+}
+
+
+/*====rtl====*/
+.rtl {
+    .navbar-collapse {
+        margin-left: auto;
+        margin-right: 4.5rem;
+
+        @include large-1199 {
+            margin-right: 0rem;
+        }
+    }
+
+    .top-nav {
+        .top-bar {
+            .top-text {
+                .top-email {
+                    span {
+                        margin-right: 0rem;
+                        margin-left: 1rem;
+                    }
+                }
+
+                .top-phone {
+
+                    margin-left: auto;
+                    margin-right: 2rem;
+                    // direction: ltr;
+
+                    span {
+                        margin-right: 0rem;
+                        margin-left: 1rem;
+                        direction: ltr;
+                        transform: scaleX(-1);
+                    }
+
+                    .my-number {
+                        direction: ltr;
+                    }
+                }
+            }
+
+            .top-icon {
+                a {
+                    border-radius: 0.5rem;
+                    margin: 0rem 0.7rem;
+
+                    &:last-child {
+                        margin-right: 0.7rem;
+                        margin-left: 0rem;
+
+                        @include m-425 {
+                            margin-left: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .language-dd {
+        .dd-text {
+            margin-right: auto;
+            margin-left: 0.8rem;
+        }
+
+        .dd-icon-1 {
+            margin-right: auto;
+            margin-left: 0.8rem;
+        }
+    }
+}

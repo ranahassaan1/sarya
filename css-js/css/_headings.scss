@@ -1,0 +1,146 @@
+/*====common heading====*/
+.common-heading {
+    text-align: center;
+
+    .heading {
+        position: relative;
+        font-size: 3.2rem;
+        color: $primary_3;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 3.2rem;
+        margin: 0px -15px;
+    }
+
+    .sub-heading {
+        font-size: 1.6rem;
+        color: $primary_4;
+        font-weight: 300;
+        text-transform: capitalize;
+        margin-top: 0.6rem;
+    }
+
+
+
+    .separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .separator::before,
+    .separator::after {
+        content: '';
+        flex: 1;
+        border-bottom: 2px solid $primary_3;
+        max-width: 5.2rem !important;
+    }
+
+    .separator::before {
+        margin-right: .25em;
+    }
+
+    .separator::after {
+        margin-left: .25em;
+    }
+
+}
+
+.rtl {
+
+    .common-heading {
+
+        .separator::before {
+            margin-right: auto;
+            margin-left: .25em;
+        }
+
+        .separator::after {
+            margin-left: auto;
+            margin-right: .25em;
+        }
+    }
+}
+
+/*====common heading 1====*/
+.common-heading-1 {
+    text-align: center;
+
+    .heading {
+        position: relative;
+        font-size: 3.2rem;
+        color: $white;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 3.2rem;
+        margin: 0px -15px;
+    }
+
+    .sub-heading {
+        font-size: 1.6rem;
+        color: $white;
+        font-weight: 300;
+        text-transform: capitalize;
+        margin-top: 0.6rem;
+    }
+
+
+    .separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .separator::before,
+    .separator::after {
+        content: '';
+        flex: 1;
+        border-bottom: 2px solid $white;
+        max-width: 5.2rem !important;
+    }
+
+    .separator::before {
+        margin-right: .25em;
+    }
+
+    .separator::after {
+        margin-left: .25em;
+    }
+}
+
+.rtl {
+
+    .common-heading-1 {
+
+        .separator::before {
+            margin-right: auto;
+            margin-left: .25em;
+        }
+
+        .separator::after {
+            margin-left: auto;
+            margin-right: .25em;
+        }
+    }
+}
+
+/*====common page heading====*/
+.page-heading {
+    margin-top: -0.8rem;
+
+    .heading-0 {
+        font-size: 2rem;
+        color: $primary_1;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .heading-1 {
+        font-size: 3.2rem;
+        color: $primary_3;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+}

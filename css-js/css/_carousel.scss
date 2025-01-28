@@ -1,0 +1,100 @@
+.carousel-inner {
+    height: 67.7rem;
+    position: relative;
+}
+
+.carousel-item {
+    height: 67.7rem;
+}
+
+.my-carousel-caption {
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 71.3rem;
+    width: 100%;
+
+    @include small-768 {
+        max-width: 63rem;
+    }
+
+    h3 {
+        font-size: 6.5rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: $white;
+        line-height: 8rem;
+
+        @include small-768 {
+            font-size: 3.5rem;
+            line-height: 6rem;
+        }
+
+        span {
+            font-size: 6.5rem;
+            text-transform: capitalize;
+            font-weight: 500;
+            color: $white;
+
+            @include small-768 {
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: $white;
+        line-height: 2.6rem;
+    }
+
+    .slider-btn {
+        margin-top: 3.5rem;
+    }
+}
+
+
+
+.carousel-control-next {
+    position: absolute;
+    top: 30.5rem;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 6.4rem;
+    height: 6.4rem;
+    font-size: 3rem;
+    color: $white;
+    background-color: #0a0a0ab5;
+    text-align: center;
+    border-radius: 3rem 0rem 0rem 3rem;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .15s ease;
+
+    @include m-540 {
+        display: none;
+    }
+
+    &:hover {
+        background-color: $primary_1;
+        transition: 0.2s;
+    }
+}
+
+.carousel-control-prev {
+    @extend .carousel-control-next;
+    border-radius: 0rem 3rem 3rem 0rem;
+}
+
+.carousel-indicators {
+    display: none;
+}

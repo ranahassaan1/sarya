@@ -1,0 +1,46 @@
+.services {
+    .services-page-img-float-left {
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        height: 32.9rem;
+        max-width: 36.0rem;
+        width: 100%;
+        overflow: hidden;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        background-color: $grey !important;
+        float: left;
+
+        @include m-575 {
+            max-width: 100%;
+            margin-right: 0rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .services-text {
+        font-size: 1.6rem;
+        font-weight: 300;
+        line-height: 2.6rem;
+        color: $primary_4;
+        text-align: justify;
+    }
+}
+
+
+.rtl {
+
+    .services {
+        .services-page-img-float-left {
+            margin-right: 0rem;
+            margin-left: 2rem;
+            // float: left;
+            float: right;
+
+            @include m-575 {
+                margin-left: 0rem;
+            }
+        }
+    }
+}

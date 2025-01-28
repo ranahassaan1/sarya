@@ -1,0 +1,63 @@
+.my-breadcrumb {
+    background-image: url('../../images/banner-img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 30rem;
+    transform: scale(1);
+
+    @include medium-991 {
+        height: 20rem;
+    }
+
+    .breadcrumb {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0rem !important;
+        margin-bottom: 0rem !important;
+        list-style: none;
+        background-color: transparent;
+        border-radius: .25rem;
+
+        .breadcrumb-item {
+            a {
+                font-size: 2rem;
+                font-weight: 600;
+                text-transform: capitalize;
+                color: $primary_5;
+
+                &:hover {
+                    color: $white;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        display: inline-block;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+        padding-right: 1rem !important;
+        padding-left: 0.5rem !important;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $white;
+        content: "/";
+    }
+}
+
+.rtl {
+    .my-breadcrumb {
+        .breadcrumb-item+.breadcrumb-item::before {
+            padding-right: 1.2rem !important;
+            padding-left: 1rem !important;
+           // transform: scaleX(-1);
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+.close {
+    float: none;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: $white;
+    text-shadow: none;
+    opacity: 1;
+    position: absolute;
+    right: -11px;
+    top: -1rem;
+    background-color: $primary_1;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        color: $white;
+        background-color: $primary_3;
+        opacity: 1;
+    }
+}
+
+.my-card-img-top-model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: $grey;
+}
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: auto;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
