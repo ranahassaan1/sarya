@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f4f4f4;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
 }
 
 @import "responsive";
@@ -47,85 +47,83 @@ body {
 @import "aboutus";
 @import "contact";
 
-
 @media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
+  .container {
+    max-width: 1170px;
+  }
 
-    .container-fluid {
-        max-width: 1730px;
-    }
+  .container-fluid {
+    max-width: 1730px;
+  }
 }
 
 .rtl {
-    direction: rtl;
-    text-align: right;
+  direction: rtl;
+  text-align: right;
 }
 
-
 .active {
-    color: $primary_1 !important;
+  color: $primary_1 !important;
 }
 
 /*====about us====*/
 .intro {
-    font-size: 1.6rem;
-    font-weight: 300;
-    line-height: 2.6rem;
-    margin-top: 3rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+  margin-top: 3rem;
 }
 
 .about-imgs {
-    margin-top: -16.5rem;
+  margin-top: -16.5rem;
 
-    @include medium-991 {
-        margin-top: -12rem;
-    }
+  @include medium-991 {
+    margin-top: -12rem;
+  }
 
-    @include m-375 {
-        margin-top: -8rem;
-    }
+  @include m-375 {
+    margin-top: -8rem;
+  }
 
-    @include m-325 {
-        margin-top: -4rem;
-    }
+  @include m-325 {
+    margin-top: -4rem;
+  }
 }
 
 .common-page-heading {
-    margin-top: 8.8rem;
+  margin-top: 8.8rem;
 }
 
 /*====terms====*/
 .terms-conditions {
-    margin-top: 9rem;
+  margin-top: 9rem;
 }
 
 .terms-conditions-text {
-    margin-top: 4rem;
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: $grey;
-    line-height: 2.6rem;
-    text-align: justify;
-    background-color: $primary_1;
-    padding: 2.5rem;
-    box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.16) !important;
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: $grey;
+  line-height: 2.6rem;
+  text-align: justify;
+  background-color: $primary_1;
+  padding: 2.5rem;
+  box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.16) !important;
 }
 
 /*====policy====*/
 .privacy-policy {
-    margin-top: 9rem;
+  margin-top: 9rem;
 }
 
 .privacy-policy-text {
-    margin-top: 4rem;
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: $grey;
-    line-height: 2.6rem;
-    text-align: justify;
-    background-color: $primary_1;
-    padding: 2.5rem;
-    box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.16) !important;
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: $grey;
+  line-height: 2.6rem;
+  text-align: justify;
+  background-color: $primary_1;
+  padding: 2.5rem;
+  box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.16) !important;
 }
